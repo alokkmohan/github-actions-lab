@@ -1,0 +1,13 @@
+name: Trigger Test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test-trigger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "Trigger Working"
+      - run: date
