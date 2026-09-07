@@ -1,0 +1,25 @@
+name: Steps Practice
+
+on: push
+
+jobs:
+
+  system-info:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - run: echo "Step 1"
+
+      - run: pwd
+
+      - run: ls
+
+      - run: whoami
+
+      - run: hostname
+
+      - run: date
+
+      - run: uname -a
