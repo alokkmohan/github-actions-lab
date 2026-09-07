@@ -1,0 +1,18 @@
+name: Learning YAML
+
+on: push
+
+jobs:
+  practice:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "Step 1"
+
+      - run: echo "Step 2"
+
+      - run: echo "Step 3"
+
+      - run: date
+
+      - run: whoami
