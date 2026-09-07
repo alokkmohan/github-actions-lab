@@ -1,0 +1,17 @@
+name: Marketplace Practice
+
+on: push
+
+jobs:
+
+  checkout-demo:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - run: pwd
+
+      - run: ls
